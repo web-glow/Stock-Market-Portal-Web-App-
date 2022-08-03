@@ -1,0 +1,61 @@
+.intro-container {
+    margin-top: 6%;
+    margin-bottom: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.intro-header {
+    display: flex;
+    font-size: 1.9em;
+    color: var(--secondary-color);
+}
+
+.intro-description {
+    display: flex;
+    font-size: x-large;
+    width: 60%;
+    margin: 1%;
+    color: var(--secondary-color);
+}
+
+.home-page-container {
+    margin: 5%;
+    color: var(--secondary-color);
+}
+
+.home-header {
+    display: flex;
+    font-size: 1.5em;
+}
+
+.home-description {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 820px) {
+    .intro-header {
+        font-size: 1em;
+    }
+
+    .intro-description {
+        display: flex;
+        font-size: larger;
+        width: 67%;
+        text-align: left;
+    }
+
+    .home-header {
+        font-size: smaller;
+        text-align: center;
+    }
+    .home-description {
+        font-size: 0.8em;
+        text-align: left;
+    }
+}
